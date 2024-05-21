@@ -1,5 +1,3 @@
-# This project is no longer maintained
-# 此项目不再维护
 
 简体中文 | [English](README_EN.md) | [日本語](README_JP.md)
 # 方舟帮帮忙
