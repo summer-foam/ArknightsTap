@@ -1679,6 +1679,7 @@
     "nameKR": "霞光",
     "type": "Defender",
     "tags": [
+      "Melee",
       "Defense",
       "Healing",
       "DPS"
@@ -1693,6 +1694,7 @@
     "nameKR": "棘刺",
     "type": "Guard",
     "tags": [
+      "Melee",
       "Defense",
       "DPS"
     ]
@@ -1706,6 +1708,7 @@
     "nameKR": "森蚺",
     "type": "Defender",
     "tags": [
+      "Melee",
       "Defense",
       "DPS",
       "Survival"
@@ -1724,5 +1727,99 @@
       "Elements"
     ]
 
+  },
+  {
+    "star": 6,
+    "name": "Surtr",
+    "nameCN": "史尔特尔",
+    "nameTW": "史尔特尔",
+    "nameJP": "スルト",
+    "nameKR": "史尔特尔",
+    "type": "Guard",
+    "tags": [
+      "Melee",
+      "DPS"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Chiave",
+    "nameCN": "贾维",
+    "nameTW": "贾维",
+    "nameJP": "キアヴェ",
+    "nameKR": "치아베",
+    "type": "Vanguard",
+    "tags": [
+      "Melee",
+      "DP-Recovery",
+      "DPS"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Aosta",
+    "nameCN": "奥斯塔",
+    "nameTW": "奥斯塔",
+    "nameJP": "アオスタ",
+    "nameKR": "아오스타",
+    "type": "Sniper",
+    "tags": [
+      "Ranged",
+      "AoE"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "April",
+    "nameCN": "四月",
+    "nameTW": "四月",
+    "nameJP": "エイプリル",
+    "nameKR": "에이프릴",
+    "type": "Sniper",
+    "tags": [
+      "Ranged",
+      "DPS"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Andreana",
+    "nameCN": "安哲拉",
+    "nameTW": "安哲拉",
+    "nameJP": "アンドレアナ",
+    "nameKR": "안드레아나",
+    "type": "Sniper",
+    "tags": [
+      "Ranged",
+      "DPS",
+      "Slow"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Flint",
+    "nameCN": "燧石",
+    "nameTW": "燧石",
+    "nameJP": "フリント",
+    "nameKR": "플린트",
+    "type": "Guard",
+    "tags": [
+      "Melee",
+      "DPS"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Beeswax",
+    "nameCN": "蜜蜡",
+    "nameTW": "蜜蜡",
+    "nameJP": "ビーズワックス",
+    "nameKR": "비즈왁스",
+    "type": "Caster",
+    "tags": [
+      "Ranged",
+      "AoE",
+      "Defense"
+    ]
   }
 ]
