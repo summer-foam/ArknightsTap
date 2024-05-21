@@ -103,4 +103,5 @@
     <string name="donation_paypal">PayPal</string>
     <string name="contributor">寄稿者</string>
     <string name="translator">翻訳</string>
+    <string name="editor">編集者</string>
 </resources>

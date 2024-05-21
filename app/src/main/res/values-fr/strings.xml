@@ -108,4 +108,5 @@
     <string name="donation_paypal">PayPal</string>
     <string name="contributor">Contributeur</string>
     <string name="translator">Traducteur</string>
+    <string name="editor">éditeur</string>
 </resources>

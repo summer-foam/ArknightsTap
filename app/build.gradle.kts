@@ -12,7 +12,7 @@ android {
         minSdk = 21
         targetSdk = 33
         versionCode = 69
-        versionName = "3.0.3"
+        versionName = "3.0.4"
         resourceConfigurations += setOf("zh-rCN", "en", "ja", "in", "fr")
     }
 
@@ -68,4 +68,5 @@ dependencies {
     implementation("androidx.preference:preference-ktx:1.2.0")
     implementation("com.google.android.flexbox:flexbox:3.0.0")
     implementation("com.google.android.material:material:1.8.0")
+    implementation("com.android.support:cardview-v7:28.0.0")
 }
