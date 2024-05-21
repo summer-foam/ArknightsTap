@@ -1,6 +1,4 @@
 package com.icebem.akt.ui.about
-
-import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -33,12 +31,7 @@ class AboutFragment : Fragment(), OnClickListener {
         binding.containerVersionState.setOnLongClickListener { resetDataDialog() }
         binding.containerVersionType.setOnClickListener(this)
         binding.containerVersionType.setOnLongClickListener { ArkMaid.reinstallSelf(requireContext()) }
-        binding.containerComment.setOnClickListener(this)
         binding.containerProject.setOnClickListener(this)
-        binding.containerDiscuss.setOnClickListener(this)
-        binding.containerSupport.setOnClickListener(this)
-        binding.actionShare.setOnClickListener(this)
-        binding.actionDonate.setOnClickListener(this)
         binding.contributorsText.text = buildString {
             ContributorInfo.array.forEach {
                 if (isNotEmpty()) appendLine()
@@ -65,14 +58,7 @@ class AboutFragment : Fragment(), OnClickListener {
                     if (ArkPref.isPro) ArkMaid.showRootDialog(requireActivity())
                 }
             }
-            R.id.container_comment -> ArkMaid.startUrl(requireActivity(), ArkMaid.URL_COOLAPK)
             R.id.container_project -> ArkMaid.startUrl(requireActivity(), ArkMaid.URL_PROJECT)
-            R.id.container_discuss -> runCatching {
-                ArkMaid.startUrl(requireActivity(), ArkMaid.URL_QQ_API)
-            }
-            R.id.container_support -> ArkMaid.startUrl(requireActivity(), ArkMaid.URL_WHY_FREE_SOFTWARE)
-            R.id.action_share -> startActivity(Intent(Intent.ACTION_SEND).putExtra(Intent.EXTRA_TEXT, ArkMaid.URL_COOLAPK).setType("text/plain"))
-            R.id.action_donate -> onDonate()
         }
     }
 
@@ -97,35 +83,6 @@ class AboutFragment : Fragment(), OnClickListener {
         return true
     }
 
-    private fun onDonate() {
-        MaterialAlertDialogBuilder(requireActivity()).run {
-            setTitle(R.string.action_donate)
-            setSingleChoiceItems(resources.getStringArray(R.array.donate_payment_entries), 0) { dialog, which ->
-                dialog.dismiss()
-                when (which) {
-                    0 -> runCatching {
-                        startActivity(Intent.parseUri(ArkMaid.URL_ALIPAY_API, Intent.URI_INTENT_SCHEME))
-                    }.onFailure {
-                        showQRDialog(true)
-                    }
-                    1 -> showQRDialog(false)
-                    2 -> ArkMaid.startUrl(requireActivity(), ArkMaid.URL_PAYPAL)
-                }
-                Snackbar.make(binding.root, R.string.info_donate_thanks, Snackbar.LENGTH_INDEFINITE).show()
-            }
-            setNegativeButton(R.string.not_now, null)
-            show()
-        }
-    }
-
-    private fun showQRDialog(isAlipay: Boolean) {
-        MaterialAlertDialogBuilder(requireActivity()).run {
-            setTitle(R.string.action_donate)
-            setView(if (isAlipay) R.layout.qr_alipay else R.layout.qr_wechat)
-            setPositiveButton(R.string.not_now, null)
-            show()
-        }
-    }
 
     private fun handleUpdateResult(result: JSONArray?) = ArkMaid.showUpdateResult(requireActivity(), binding.root, result) {
         binding.containerVersionState.isClickable = true

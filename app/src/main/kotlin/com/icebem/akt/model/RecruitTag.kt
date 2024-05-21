@@ -39,7 +39,8 @@ internal object RecruitTag {
     private val AFFIX_SUMMON = arrayOf("Summon", "召唤", "召喚", "召喚", "소환")
     private val AFFIX_NUKER = arrayOf("Nuker", "爆发", "爆發", "爆発力", "누커")
     private val AFFIX_CONTROL = arrayOf("Crowd-Control", "控场", "控場", "牽制", "제어형")
-    private val TAG_ARRAY = arrayOf(QUALIFICATION_2, POSITION_MELEE, POSITION_RANGED, TYPE_VANGUARD, TYPE_SNIPER, TYPE_GUARD, TYPE_CASTER, TYPE_DEFENDER, TYPE_MEDIC, TYPE_SPECIALIST, TYPE_SUPPORTER, AFFIX_SURVIVAL, AFFIX_AOE, AFFIX_SLOW, AFFIX_HEALING, AFFIX_DPS, AFFIX_DEFENSE, AFFIX_RECOVERY, AFFIX_REDEPLOY, AFFIX_DEBUFF, AFFIX_SUPPORT, AFFIX_SHIFT, AFFIX_SUMMON, AFFIX_NUKER, AFFIX_CONTROL)
+    private val AFFIX_ELEMENTS = arrayOf("Elements", "元素", "元素", "エレメント", "엘리멘트")
+    private val TAG_ARRAY = arrayOf(QUALIFICATION_2, POSITION_MELEE, POSITION_RANGED, TYPE_VANGUARD, TYPE_SNIPER, TYPE_GUARD, TYPE_CASTER, TYPE_DEFENDER, TYPE_MEDIC, TYPE_SPECIALIST, TYPE_SUPPORTER, AFFIX_SURVIVAL, AFFIX_AOE, AFFIX_SLOW, AFFIX_HEALING, AFFIX_DPS, AFFIX_DEFENSE, AFFIX_RECOVERY, AFFIX_REDEPLOY, AFFIX_DEBUFF, AFFIX_SUPPORT, AFFIX_SHIFT, AFFIX_SUMMON, AFFIX_NUKER, AFFIX_CONTROL,AFFIX_ELEMENTS)
 
     val array: SparseArray<Array<String>>
         get() = SparseArray<Array<String>>().apply {
@@ -77,6 +78,7 @@ internal object RecruitTag {
             put(R.id.tag_affix_summon, AFFIX_SUMMON)
             put(R.id.tag_affix_nuker, AFFIX_NUKER)
             put(R.id.tag_affix_control, AFFIX_CONTROL)
+            put(R.id.tag_affix_elements, AFFIX_ELEMENTS)
         }
 
     fun getTagName(tagName: String, index: Int): String {

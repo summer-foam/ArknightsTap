@@ -1,124 +1,1728 @@
 [
-  {"star":1,"name":"Lancet-2","nameCN":"Lancet-2","nameTW":"Lancet-2","nameJP":"Lancet-2","nameKR":"Lancet-2","type":"Medic","tags":["Ranged","Healing"]},
-  {"star":1,"name":"Castle-3","nameCN":"Castle-3","nameTW":"Castle-3","nameJP":"Castle-3","nameKR":"Castle-3","type":"Guard","tags":["Melee","Support"]},
-  {"star":2,"name":"Yato","nameCN":"夜刀","nameTW":"夜刀","nameJP":"ヤトウ","nameKR":"야토","type":"Vanguard","tags":["Melee","Starter"]},
-  {"star":2,"name":"Noir Corne","nameCN":"黑角","nameTW":"黑角","nameJP":"ノイルホーン","nameKR":"느와르 코르네","type":"Defender","tags":["Melee","Starter"]},
-  {"star":2,"name":"Rangers","nameCN":"巡林者","nameTW":"巡林者","nameJP":"レンジャー","nameKR":"레인저","type":"Sniper","tags":["Ranged","Starter"]},
-  {"star":2,"name":"Durin","nameCN":"杜林","nameTW":"杜林","nameJP":"ドゥリン","nameKR":"두린","type":"Caster","tags":["Ranged","Starter"]},
-  {"star":2,"name":"12F","nameCN":"12F","nameTW":"12F","nameJP":"12F","nameKR":"12F","type":"Caster","tags":["Ranged","Starter"]},
-  {"star":3,"name":"Adnachiel","nameCN":"安德切尔","nameTW":"安德切爾","nameJP":"アドナキエル","nameKR":"아드나키엘","type":"Sniper","tags":["Ranged","DPS"]},
-  {"star":3,"name":"Fang","nameCN":"芬","nameTW":"芬","nameJP":"フェン","nameKR":"팽","type":"Vanguard","tags":["Melee","DP-Recovery"]},
-  {"star":3,"name":"Vanilla","nameCN":"香草","nameTW":"香草","nameJP":"バニラ","nameKR":"바닐라","type":"Vanguard","tags":["Melee","DP-Recovery"]},
-  {"star":3,"name":"Plume","nameCN":"翎羽","nameTW":"翎羽","nameJP":"プリュム","nameKR":"플룸","type":"Vanguard","tags":["Melee","DPS","DP-Recovery"]},
-  {"star":3,"name":"Melantha","nameCN":"玫兰莎","nameTW":"玫蘭莎","nameJP":"メランサ","nameKR":"멜란사","type":"Guard","tags":["Melee","DPS","Survival"]},
-  {"star":3,"name":"Beagle","nameCN":"米格鲁","nameTW":"米格魯","nameJP":"ビーグル","nameKR":"비글","type":"Defender","tags":["Melee","Defense"]},
-  {"star":3,"name":"Kroos","nameCN":"克洛丝","nameTW":"克洛絲","nameJP":"クロース","nameKR":"크루스","type":"Sniper","tags":["Ranged","DPS"]},
-  {"star":3,"name":"Lava","nameCN":"炎熔","nameTW":"炎熔","nameJP":"ラヴァ","nameKR":"라바","type":"Caster","tags":["Ranged","AoE"]},
-  {"star":3,"name":"Hibiscus","nameCN":"芙蓉","nameTW":"芙蓉","nameJP":"ハイビスカス","nameKR":"히비스커스","type":"Medic","tags":["Ranged","Healing"]},
-  {"star":3,"name":"Ansel","nameCN":"安赛尔","nameTW":"安賽爾","nameJP":"アンセル","nameKR":"안셀","type":"Medic","tags":["Ranged","Healing"]},
-  {"star":3,"name":"Steward","nameCN":"史都华德","nameTW":"史都華德","nameJP":"スチュワー土","nameKR":"스튜어드","type":"Caster","tags":["Ranged","DPS"]},
-  {"star":3,"name":"Orchid","nameCN":"梓兰","nameTW":"梓蘭","nameJP":"オーキッド","nameKR":"오키드","type":"Supporter","tags":["Ranged","Slow"]},
-  {"star":4,"name":"Estelle","nameCN":"艾丝黛尔","nameTW":"艾絲黛爾","nameJP":"エステル","nameKR":"에스텔","type":"Guard","tags":["Melee","AoE","Survival"]},
-  {"star":4,"name":"Haze","nameCN":"夜烟","nameTW":"夜煙","nameJP":"ヘイズ","nameKR":"헤이즈","type":"Caster","tags":["Ranged","DPS","Debuff"]},
-  {"star":4,"name":"Gitano","nameCN":"远山","nameTW":"遠山","nameJP":"ギターノ","nameKR":"기타노","type":"Caster","tags":["Ranged","AoE"]},
-  {"star":4,"name":"Jessica","nameCN":"杰西卡","nameTW":"潔西卡","nameJP":"ジェシカ","nameKR":"제시카","type":"Sniper","tags":["Ranged","DPS","Survival"]},
-  {"star":4,"name":"Meteor","nameCN":"流星","nameTW":"流星","nameJP":"メテオ","nameKR":"메테오","type":"Sniper","tags":["Ranged","DPS","Debuff"]},
-  {"star":4,"name":"ShiraYuki","nameCN":"白雪","nameTW":"白雪","nameJP":"シラユキ","nameKR":"시라유키","type":"Sniper","tags":["Ranged","AoE","Slow"]},
-  {"star":4,"name":"Scavenger","nameCN":"清道夫","nameTW":"清道夫","nameJP":"スカベンジャー","nameKR":"스캐빈저","type":"Vanguard","tags":["Melee","DP-Recovery","DPS"]},
-  {"star":4,"name":"Vigna","nameCN":"红豆","nameTW":"紅豆","nameJP":"ヴィグナ","nameKR":"비그나","type":"Vanguard","tags":["Melee","DPS","DP-Recovery"]},
-  {"star":4,"name":"Doberman","nameCN":"杜宾","nameTW":"杜賓","nameJP":"ドーベルマン","nameKR":"도베르만","type":"Guard","tags":["Melee","DPS","Support"]},
-  {"star":4,"name":"Matoimaru","nameCN":"缠丸","nameTW":"纏丸","nameJP":"マトイマル","nameKR":"마토이마루","type":"Guard","tags":["Melee","Survival","DPS"]},
-  {"star":4,"name":"Frostleaf","nameCN":"霜叶","nameTW":"霜葉","nameJP":"フロストリーフ","nameKR":"프로스트리프","type":"Guard","tags":["Melee","Slow","DPS"]},
-  {"star":4,"name":"Mousse","nameCN":"慕斯","nameTW":"慕斯","nameJP":"ムース","nameKR":"무스","type":"Guard","tags":["Melee","DPS"]},
-  {"star":4,"name":"Gravel","nameCN":"砾","nameTW":"礫","nameJP":"グラベル","nameKR":"그라벨","type":"Specialist","tags":["Melee","Fast-Redeploy","Defense"]},
-  {"star":4,"name":"Rope","nameCN":"暗索","nameTW":"暗索","nameJP":"ロープ","nameKR":"로프","type":"Specialist","tags":["Melee","Shift"]},
-  {"star":4,"name":"Myrrh","nameCN":"末药","nameTW":"末藥","nameJP":"ミルラ","nameKR":"미르","type":"Medic","tags":["Ranged","Healing"]},
-  {"star":4,"name":"Perfumer","nameCN":"调香师","nameTW":"調香師","nameJP":"パフューマー","nameKR":"퍼퓨머","type":"Medic","tags":["Ranged","Healing"]},
-  {"star":4,"name":"Matterhorn","nameCN":"角峰","nameTW":"角峰","nameJP":"マッターホルン","nameKR":"마터호른","type":"Defender","tags":["Melee","Defense"]},
-  {"star":4,"name":"Cuora","nameCN":"蛇屠箱","nameTW":"蛇屠箱","nameJP":"クオーラ","nameKR":"쿠오라","type":"Defender","tags":["Melee","Defense"]},
-  {"star":4,"name":"Gummy","nameCN":"古米","nameTW":"古米","nameJP":"グム","nameKR":"굼","type":"Defender","tags":["Melee","Defense","Healing"]},
-  {"star":4,"name":"Earthspirit","nameCN":"地灵","nameTW":"地靈","nameJP":"アーススピリット","nameKR":"어스스피릿","type":"Supporter","tags":["Ranged","Slow"]},
-  {"star":4,"name":"Shaw","nameCN":"阿消","nameTW":"阿消","nameJP":"ショウ","nameKR":"쇼","type":"Specialist","tags":["Melee","Shift"]},
-  {"star":5,"name":"Indra","nameCN":"因陀罗","nameTW":"因陀羅","nameJP":"インドラ","nameKR":"인드라","type":"Guard","tags":["Melee","DPS","Survival"]},
-  {"star":5,"name":"Vulcan","nameCN":"火神","nameTW":"火神","nameJP":"ヴァルガン","nameKR":"벌컨","type":"Defender","tags":["Melee","Survival","Defense","DPS"]},
-  {"star":5,"name":"Ptilopsis","nameCN":"白面鸮","nameTW":"白面鴞","nameJP":"フィリオプシス","nameKR":"프틸롭시스","type":"Medic","tags":["Ranged","Healing","Support"]},
-  {"star":5,"name":"Zima","nameCN":"凛冬","nameTW":"凜冬","nameJP":"ズィマー","nameKR":"지마","type":"Vanguard","tags":["Melee","DP-Recovery","Support"]},
-  {"star":5,"name":"Texas","nameCN":"德克萨斯","nameTW":"德克薩斯","nameJP":"テキサス","nameKR":"텍사스","type":"Vanguard","tags":["Melee","DP-Recovery","Crowd-Control"]},
-  {"star":5,"name":"Specter","nameCN":"幽灵鲨","nameTW":"幽靈鯊","nameJP":"スペクター","nameKR":"스펙터","type":"Guard","tags":["Melee","AoE","Survival"]},
-  {"star":5,"name":"Blue Poison","nameCN":"蓝毒","nameTW":"藍毒","nameJP":"アズリウス","nameKR":"블루포이즌","type":"Sniper","tags":["Ranged","DPS"]},
-  {"star":5,"name":"Platinum","nameCN":"白金","nameTW":"白金","nameJP":"プラチナ","nameKR":"플래티넘","type":"Sniper","tags":["Ranged","DPS"]},
-  {"star":5,"name":"Meteorite","nameCN":"陨星","nameTW":"隕星","nameJP":"メテオリーテ","nameKR":"메테오라이트","type":"Sniper","tags":["Ranged","AoE","Debuff"]},
-  {"star":5,"name":"Mayer","nameCN":"梅尔","nameTW":"梅爾","nameJP":"メイヤー","nameKR":"메이어","type":"Supporter","tags":["Ranged","Summon","Crowd-Control"]},
-  {"star":5,"name":"Silence","nameCN":"赫默","nameTW":"赫默","nameJP":"サイレンス","nameKR":"사일런스","type":"Medic","tags":["Ranged","Healing"]},
-  {"star":5,"name":"Warfarin","nameCN":"华法琳","nameTW":"華法琳","nameJP":"ワルファリン","nameKR":"와파린","type":"Medic","tags":["Ranged","Healing","Support"]},
-  {"star":5,"name":"Nearl","nameCN":"临光","nameTW":"臨光","nameJP":"ニアール","nameKR":"니어","type":"Defender","tags":["Melee","Defense","Healing"]},
-  {"star":5,"name":"Projekt Red","nameCN":"红","nameTW":"紅","nameJP":"レッド","nameKR":"레드","type":"Specialist","tags":["Melee","Fast-Redeploy","Crowd-Control"]},
-  {"star":5,"name":"Liskarm","nameCN":"雷蛇","nameTW":"雷蛇","nameJP":"リスカム","nameKR":"리스캄","type":"Defender","tags":["Melee","Defense","DPS"]},
-  {"star":5,"name":"Croissant","nameCN":"可颂","nameTW":"可頌","nameJP":"クロワッサン","nameKR":"크루아상","type":"Defender","tags":["Melee","Defense","Shift"]},
-  {"star":5,"name":"Provence","nameCN":"普罗旺斯","nameTW":"普羅旺斯","nameJP":"プロヴァンス","nameKR":"프로방스","type":"Sniper","tags":["Ranged","DPS"]},
-  {"star":5,"name":"Firewatch","nameCN":"守林人","nameTW":"守林人","nameJP":"ファィヤーウォッチ","nameKR":"파이어워치","type":"Sniper","tags":["Ranged","DPS","Nuker"]},
-  {"star":5,"name":"Cliffheart","nameCN":"崖心","nameTW":"崖心","nameJP":"クリフハート","nameKR":"클리프하트","type":"Specialist","tags":["Melee","Shift","DPS"]},
-  {"star":5,"name":"Pramanix","nameCN":"初雪","nameTW":"初雪","nameJP":"プラマニクス","nameKR":"프라마닉스","type":"Supporter","tags":["Ranged","Debuff"]},
-  {"star":5,"name":"Istina","nameCN":"真理","nameTW":"真理","nameJP":"イースチナ","nameKR":"이스티나","type":"Supporter","tags":["Ranged","Slow","DPS"]},
-  {"star":5,"name":"Manticore","nameCN":"狮蝎","nameTW":"獅蠍","nameJP":"マンティコア","nameKR":"맨티코어","type":"Specialist","tags":["Melee","DPS","Survival"]},
-  {"star":5,"name":"FEater","nameCN":"食铁兽","nameTW":"食鐵獸","nameJP":"エフイーター","nameKR":"에프이터","type":"Specialist","tags":["Melee","Shift","Slow"]},
-  {"star":6,"name":"Exusiai","nameCN":"能天使","nameTW":"能天使","nameJP":"エクシア","nameKR":"엑시아","type":"Sniper","tags":["Ranged","DPS"]},
-  {"star":6,"name":"Siege","nameCN":"推进之王","nameTW":"推進之王","nameJP":"シージ","nameKR":"시즈","type":"Vanguard","tags":["Melee","DP-Recovery","DPS"]},
-  {"star":6,"name":"Ifrit","nameCN":"伊芙利特","nameTW":"伊芙利特","nameJP":"イフリータ","nameKR":"이프리트","type":"Caster","tags":["Ranged","AoE","Debuff"]},
-  {"star":6,"name":"Shining","nameCN":"闪灵","nameTW":"閃靈","nameJP":"シャイニング","nameKR":"샤이닝","type":"Medic","tags":["Ranged","Healing","Support"]},
-  {"star":6,"name":"Nightingale","nameCN":"夜莺","nameTW":"夜鶯","nameJP":"ナイチンゲール","nameKR":"나이팅게일","type":"Medic","tags":["Ranged","Healing","Support"]},
-  {"star":6,"name":"Hoshiguma","nameCN":"星熊","nameTW":"星熊","nameJP":"ホシグマ","nameKR":"호시구마","type":"Defender","tags":["Melee","Defense","DPS"]},
-  {"star":6,"name":"Saria","nameCN":"塞雷娅","nameTW":"塞雷婭","nameJP":"サリア","nameKR":"사리아","type":"Defender","tags":["Melee","Defense","Healing","Support"]},
-  {"star":6,"name":"SilverAsh","nameCN":"银灰","nameTW":"銀灰","nameJP":"シルバーアッシュ","nameKR":"실버애쉬","type":"Guard","tags":["Melee","DPS","Support"]},
-  {"star":3,"name":"Catapult","nameCN":"空爆","nameTW":"空爆","nameJP":"カタパルト","nameKR":"캐터펄트","type":"Sniper","tags":["Ranged","AoE"]},
-  {"star":3,"name":"Midnight","nameCN":"月见夜","nameTW":"月見夜","nameJP":"ミッドナイト","nameKR":"미드나이트","type":"Guard","tags":["Melee","DPS"]},
-  {"star":4,"name":"Beehunter","nameCN":"猎蜂","nameTW":"獵蜂","nameJP":"ビーハンター","nameKR":"비헌터","type":"Guard","tags":["Melee","DPS"]},
-  {"star":5,"name":"Nightmare","nameCN":"夜魔","nameTW":"夜魔","nameJP":"ナイトメア","nameKR":"나이트메어","type":"Caster","tags":["Ranged","DPS","Healing","Slow"]},
-  {"star":6,"name":"Skadi","nameCN":"斯卡蒂","nameTW":"斯卡蒂","nameJP":"スカジ","nameKR":"스카디","type":"Guard","tags":["Melee","DPS","Survival"]},
-  {"star":1,"name":"Thermal-EX","nameCN":"THRM-EX","nameTW":"THRM-EX","nameJP":"THRM-EX","nameKR":"THRM-EX","type":"Specialist","tags":["Melee","Nuker"]},
-  {"star":3,"name":"Popukar","nameCN":"泡普卡","nameTW":"泡普卡","nameJP":"ポプカル","nameKR":"포푸카","type":"Guard","tags":["Melee","AoE","Survival"]},
-  {"star":3,"name":"Spot","nameCN":"斑点","nameTW":"斑點","nameJP":"スポット","nameKR":"스팟","type":"Defender","tags":["Melee","Defense","Healing"]},
-  {"star":4,"name":"Greyy","nameCN":"格雷伊","nameTW":"格雷伊","nameJP":"グレイ","nameKR":"그레이","type":"Caster","tags":["Ranged","AoE","Slow"]},
-  {"star":5,"name":"Swire","nameCN":"诗怀雅","nameTW":"詩懷雅","nameJP":"スワイヤー","nameKR":"스와이어","type":"Guard","tags":["Melee","DPS","Support"]},
-  {"star":6,"name":"Ch'en","nameCN":"陈","nameTW":"陳","nameJP":"チェン","nameKR":"첸","type":"Guard","tags":["Melee","Nuker","DPS"]},
-  {"star":4,"name":"Sussurro","nameCN":"苏苏洛","nameTW":"苏苏洛","nameJP":"ススーロ","nameKR":"苏苏洛","type":"Medic","tags":["Ranged","Healing"]},
-  {"star":4,"name":"Myrtle","nameCN":"桃金娘","nameTW":"桃金娘","nameJP":"テンニンカ","nameKR":"桃金娘","type":"Vanguard","tags":["Melee","DP-Recovery","Healing"]},
-  {"star":5,"name":"Glaucus","nameCN":"格劳克斯","nameTW":"格劳克斯","nameJP":"グラウコス","nameKR":"格劳克斯","type":"Supporter","tags":["Ranged","Slow","Crowd-Control"]},
-  {"star":5,"name":"Astesia","nameCN":"星极","nameTW":"星极","nameJP":"アステシア","nameKR":"星极","type":"Guard","tags":["Melee","DPS","Defense"]},
-  {"star":6,"name":"Schwarz","nameCN":"黑","nameTW":"黑","nameJP":"シュヴァルツ","nameKR":"黑","type":"Sniper","tags":["Ranged","DPS"]},
-  {"star":6,"name":"Hellagur","nameCN":"赫拉格","nameTW":"赫拉格","nameJP":"ヘラグ","nameKR":"赫拉格","type":"Guard","tags":["Melee","DPS","Survival"]},
-  {"star":4,"name":"Vermeil","nameCN":"红云","nameTW":"红云","nameJP":"ヴァーミル","nameKR":"红云","type":"Sniper","tags":["Ranged","DPS"]},
-  {"star":5,"name":"Executor","nameCN":"送葬人","nameTW":"送葬人","nameJP":"イグゼキュター","nameKR":"送葬人","type":"Sniper","tags":["Ranged","AoE"]},
-  {"star":6,"name":"Magallan","nameCN":"麦哲伦","nameTW":"麦哲伦","nameJP":"マゼラン","nameKR":"麦哲伦","type":"Supporter","tags":["Ranged","Support","Slow","DPS"]},
-  {"star":4,"name":"Purestream*","nameCN":"清流","nameTW":"清流*","nameJP":"セイリュウ*","nameKR":"清流*","type":"Medic","tags":["Ranged","Healing","Support"]},
-  {"star":4,"name":"May","nameCN":"梅","nameTW":"梅","nameJP":"メイ","nameKR":"梅","type":"Sniper","tags":["Ranged","DPS","Slow"]},
-  {"star":5,"name":"Waai Fu","nameCN":"槐琥","nameTW":"槐琥","nameJP":"ワイフー","nameKR":"槐琥","type":"Specialist","tags":["Melee","Fast-Redeploy","Debuff"]},
-  {"star":6,"name":"Mostima","nameCN":"莫斯提马","nameTW":"莫斯提马","nameJP":"モスティマ","nameKR":"莫斯提马","type":"Caster","tags":["Ranged","AoE","Support","Crowd-Control"]},
-  {"star":4,"name":"Ambriel","nameCN":"安比尔","nameTW":"安比尔*","nameJP":"アンブリエル","nameKR":"安比尔","type":"Sniper","tags":["Ranged","DPS","Slow"]},
-  {"star":5,"name":"Broca","nameCN":"布洛卡","nameTW":"布洛卡*","nameJP":"ブローカ","nameKR":"布洛卡","type":"Guard","tags":["Melee","AoE","Survival"]},
-  {"star":5,"name":"Reed","nameCN":"苇草","nameTW":"苇草*","nameJP":"リード","nameKR":"苇草","type":"Vanguard","tags":["Melee","DP-Recovery","DPS"]},
-  {"star":5,"name":"GreyThroat","nameCN":"灰喉","nameTW":"灰喉*","nameJP":"グレースロート","nameKR":"灰喉","type":"Sniper","tags":["Ranged","DPS"]},
-  {"star":6,"name":"Blaze","nameCN":"煌","nameTW":"煌*","nameJP":"ブレイズ","nameKR":"煌","type":"Guard","tags":["Melee","DPS","Survival"]},
-  {"star":1,"name":"\"Justice Knight\"*","nameCN":"正义骑士号","nameTW":"正义骑士号*","nameJP":"正义骑士号*","nameKR":"正义骑士号*","type":"Sniper","tags":["Ranged","Support"]},
-  {"star":5,"name":"Hung*","nameCN":"吽","nameTW":"吽*","nameJP":"ウン*","nameKR":"吽*","type":"Defender","tags":["Melee","Defense","Healing"]},
-  {"star":6,"name":"Aak*","nameCN":"阿","nameTW":"阿*","nameJP":"ア*","nameKR":"阿*","type":"Specialist","tags":["Ranged","Support","DPS"]},
-  {"star":5,"name":"Leizi*","nameCN":"惊蛰","nameTW":"惊蛰*","nameJP":"レイズ*","nameKR":"惊蛰*","type":"Caster","tags":["Ranged","DPS"]},
-  {"star":6,"name":"Ceobe*","nameCN":"刻俄柏","nameTW":"刻俄柏*","nameJP":"ケオベ*","nameKR":"刻俄柏*","type":"Caster","tags":["Ranged","DPS","Crowd-Control"]},
-  {"star":4,"name":"Utage*","nameCN":"宴","nameTW":"宴*","nameJP":"ウタゲ*","nameKR":"宴*","type":"Guard","tags":["Melee","DPS","Survival"]},
-  {"star":5,"name":"Sesa*","nameCN":"慑砂","nameTW":"慑砂*","nameJP":"シェーシャ*","nameKR":"慑砂*","type":"Sniper","tags":["Ranged","AoE","Debuff"]},
-  {"star":6,"name":"Bagpipe*","nameCN":"风笛","nameTW":"风笛*","nameJP":"バグパイプ*","nameKR":"风笛*","type":"Vanguard","tags":["Melee","DP-Recovery","DPS"]},
-  {"star":4,"name":"Cutter*","nameCN":"刻刀","nameTW":"刻刀*","nameJP":"カッター*","nameKR":"刻刀*","type":"Guard","tags":["Melee","Nuker","DPS"]},
-  {"star":5,"name":"Shamare*","nameCN":"巫恋","nameTW":"巫恋*","nameJP":"シャマレ*","nameKR":"巫恋*","type":"Supporter","tags":["Ranged","Debuff"]},
-  {"star":6,"name":"Phantom*","nameCN":"傀影","nameTW":"傀影*","nameJP":"ファントム*","nameKR":"傀影*","type":"Specialist","tags":["Melee","Fast-Redeploy","Crowd-Control","DPS"]},
-  {"star":5,"name":"Elysium*","nameCN":"极境","nameTW":"极境*","nameJP":"エリジウム*","nameKR":"极境*","type":"Vanguard","tags":["Melee","DP-Recovery","Support"]},
-  {"star":5,"name":"Asbestos*","nameCN":"石棉","nameTW":"石棉*","nameJP":"アスベストス*","nameKR":"石棉*","type":"Defender","tags":["Melee","Defense","DPS"]},
-  {"star":5,"name":"Tsukinogi*","nameCN":"月禾","nameTW":"月禾*","nameJP":"ツキノギ*","nameKR":"月禾*","type":"Supporter","tags":["Ranged","Support","Survival"]},
-  {"star":6,"name":"Weedy*","nameCN":"温蒂","nameTW":"温蒂*","nameJP":"ウィーディ*","nameKR":"温蒂*","type":"Specialist","tags":["Melee","Shift","DPS","Crowd-Control"]},
-  {"star":4,"name":"Podenco*","nameCN":"波登可","nameTW":"波登可*","nameJP":"ポデンコ*","nameKR":"波登可*","type":"Supporter","tags":["Ranged","Slow","Healing"]},
-  {"star":5,"name":"Leonhardt*","nameCN":"莱恩哈特","nameTW":"莱恩哈特*","nameJP":"レオンハルト*","nameKR":"莱恩哈特*","type":"Caster","tags":["Ranged","AoE","Nuker"]},
-  {"star":6,"name":"Роса*","nameCN":"早露","nameTW":"早露*","nameJP":"ロサ*","nameKR":"早露*","type":"Sniper","tags":["Ranged","DPS","Crowd-Control"]},
-  {"star":4,"name":"Click*","nameCN":"卡达","nameTW":"卡达*","nameJP":"カシャ*","nameKR":"卡达*","type":"Caster","tags":["Ranged","DPS","Crowd-Control"]},
-  {"star":5,"name":"Ayerscarpe*","nameCN":"断崖","nameTW":"断崖*","nameJP":"エアースカーペ*","nameKR":"断崖*","type":"Guard","tags":["Melee","DPS","AoE"]},
-  {"star":6,"name":"Suzuran*","nameCN":"铃兰","nameTW":"铃兰*","nameJP":"スズラン*","nameKR":"铃兰*","type":"Supporter","tags":["Ranged","Slow","Support","DPS"]},
-  {"star":1,"name":"Friston-3*","nameCN":"Friston-3","nameTW":"Friston-3*","nameJP":"Friston-3*","nameKR":"Friston-3*","type":"Defender","tags":["Melee","Defense"]}
+  {
+    "star": 1,
+    "name": "Lancet-2",
+    "nameCN": "Lancet-2",
+    "nameTW": "Lancet-2",
+    "nameJP": "Lancet-2",
+    "nameKR": "Lancet-2",
+    "type": "Medic",
+    "tags": [
+      "Ranged",
+      "Healing"
+    ]
+  },
+  {
+    "star": 1,
+    "name": "Castle-3",
+    "nameCN": "Castle-3",
+    "nameTW": "Castle-3",
+    "nameJP": "Castle-3",
+    "nameKR": "Castle-3",
+    "type": "Guard",
+    "tags": [
+      "Melee",
+      "Support"
+    ]
+  },
+  {
+    "star": 2,
+    "name": "Yato",
+    "nameCN": "夜刀",
+    "nameTW": "夜刀",
+    "nameJP": "ヤトウ",
+    "nameKR": "야토",
+    "type": "Vanguard",
+    "tags": [
+      "Melee",
+      "Starter"
+    ]
+  },
+  {
+    "star": 2,
+    "name": "Noir Corne",
+    "nameCN": "黑角",
+    "nameTW": "黑角",
+    "nameJP": "ノイルホーン",
+    "nameKR": "느와르 코르네",
+    "type": "Defender",
+    "tags": [
+      "Melee",
+      "Starter"
+    ]
+  },
+  {
+    "star": 2,
+    "name": "Rangers",
+    "nameCN": "巡林者",
+    "nameTW": "巡林者",
+    "nameJP": "レンジャー",
+    "nameKR": "레인저",
+    "type": "Sniper",
+    "tags": [
+      "Ranged",
+      "Starter"
+    ]
+  },
+  {
+    "star": 2,
+    "name": "Durin",
+    "nameCN": "杜林",
+    "nameTW": "杜林",
+    "nameJP": "ドゥリン",
+    "nameKR": "두린",
+    "type": "Caster",
+    "tags": [
+      "Ranged",
+      "Starter"
+    ]
+  },
+  {
+    "star": 2,
+    "name": "12F",
+    "nameCN": "12F",
+    "nameTW": "12F",
+    "nameJP": "12F",
+    "nameKR": "12F",
+    "type": "Caster",
+    "tags": [
+      "Ranged",
+      "Starter"
+    ]
+  },
+  {
+    "star": 3,
+    "name": "Adnachiel",
+    "nameCN": "安德切尔",
+    "nameTW": "安德切爾",
+    "nameJP": "アドナキエル",
+    "nameKR": "아드나키엘",
+    "type": "Sniper",
+    "tags": [
+      "Ranged",
+      "DPS"
+    ]
+  },
+  {
+    "star": 3,
+    "name": "Fang",
+    "nameCN": "芬",
+    "nameTW": "芬",
+    "nameJP": "フェン",
+    "nameKR": "팽",
+    "type": "Vanguard",
+    "tags": [
+      "Melee",
+      "DP-Recovery"
+    ]
+  },
+  {
+    "star": 3,
+    "name": "Vanilla",
+    "nameCN": "香草",
+    "nameTW": "香草",
+    "nameJP": "バニラ",
+    "nameKR": "바닐라",
+    "type": "Vanguard",
+    "tags": [
+      "Melee",
+      "DP-Recovery"
+    ]
+  },
+  {
+    "star": 3,
+    "name": "Plume",
+    "nameCN": "翎羽",
+    "nameTW": "翎羽",
+    "nameJP": "プリュム",
+    "nameKR": "플룸",
+    "type": "Vanguard",
+    "tags": [
+      "Melee",
+      "DPS",
+      "DP-Recovery"
+    ]
+  },
+  {
+    "star": 3,
+    "name": "Melantha",
+    "nameCN": "玫兰莎",
+    "nameTW": "玫蘭莎",
+    "nameJP": "メランサ",
+    "nameKR": "멜란사",
+    "type": "Guard",
+    "tags": [
+      "Melee",
+      "DPS",
+      "Survival"
+    ]
+  },
+  {
+    "star": 3,
+    "name": "Beagle",
+    "nameCN": "米格鲁",
+    "nameTW": "米格魯",
+    "nameJP": "ビーグル",
+    "nameKR": "비글",
+    "type": "Defender",
+    "tags": [
+      "Melee",
+      "Defense"
+    ]
+  },
+  {
+    "star": 3,
+    "name": "Kroos",
+    "nameCN": "克洛丝",
+    "nameTW": "克洛絲",
+    "nameJP": "クロース",
+    "nameKR": "크루스",
+    "type": "Sniper",
+    "tags": [
+      "Ranged",
+      "DPS"
+    ]
+  },
+  {
+    "star": 3,
+    "name": "Lava",
+    "nameCN": "炎熔",
+    "nameTW": "炎熔",
+    "nameJP": "ラヴァ",
+    "nameKR": "라바",
+    "type": "Caster",
+    "tags": [
+      "Ranged",
+      "AoE"
+    ]
+  },
+  {
+    "star": 3,
+    "name": "Hibiscus",
+    "nameCN": "芙蓉",
+    "nameTW": "芙蓉",
+    "nameJP": "ハイビスカス",
+    "nameKR": "히비스커스",
+    "type": "Medic",
+    "tags": [
+      "Ranged",
+      "Healing"
+    ]
+  },
+  {
+    "star": 3,
+    "name": "Ansel",
+    "nameCN": "安赛尔",
+    "nameTW": "安賽爾",
+    "nameJP": "アンセル",
+    "nameKR": "안셀",
+    "type": "Medic",
+    "tags": [
+      "Ranged",
+      "Healing"
+    ]
+  },
+  {
+    "star": 3,
+    "name": "Steward",
+    "nameCN": "史都华德",
+    "nameTW": "史都華德",
+    "nameJP": "スチュワー土",
+    "nameKR": "스튜어드",
+    "type": "Caster",
+    "tags": [
+      "Ranged",
+      "DPS"
+    ]
+  },
+  {
+    "star": 3,
+    "name": "Orchid",
+    "nameCN": "梓兰",
+    "nameTW": "梓蘭",
+    "nameJP": "オーキッド",
+    "nameKR": "오키드",
+    "type": "Supporter",
+    "tags": [
+      "Ranged",
+      "Slow"
+    ]
+  },
+  {
+    "star": 4,
+    "name": "Estelle",
+    "nameCN": "艾丝黛尔",
+    "nameTW": "艾絲黛爾",
+    "nameJP": "エステル",
+    "nameKR": "에스텔",
+    "type": "Guard",
+    "tags": [
+      "Melee",
+      "AoE",
+      "Survival"
+    ]
+  },
+  {
+    "star": 4,
+    "name": "Haze",
+    "nameCN": "夜烟",
+    "nameTW": "夜煙",
+    "nameJP": "ヘイズ",
+    "nameKR": "헤이즈",
+    "type": "Caster",
+    "tags": [
+      "Ranged",
+      "DPS",
+      "Debuff"
+    ]
+  },
+  {
+    "star": 4,
+    "name": "Gitano",
+    "nameCN": "远山",
+    "nameTW": "遠山",
+    "nameJP": "ギターノ",
+    "nameKR": "기타노",
+    "type": "Caster",
+    "tags": [
+      "Ranged",
+      "AoE"
+    ]
+  },
+  {
+    "star": 4,
+    "name": "Jessica",
+    "nameCN": "杰西卡",
+    "nameTW": "潔西卡",
+    "nameJP": "ジェシカ",
+    "nameKR": "제시카",
+    "type": "Sniper",
+    "tags": [
+      "Ranged",
+      "DPS",
+      "Survival"
+    ]
+  },
+  {
+    "star": 4,
+    "name": "Meteor",
+    "nameCN": "流星",
+    "nameTW": "流星",
+    "nameJP": "メテオ",
+    "nameKR": "메테오",
+    "type": "Sniper",
+    "tags": [
+      "Ranged",
+      "DPS",
+      "Debuff"
+    ]
+  },
+  {
+    "star": 4,
+    "name": "ShiraYuki",
+    "nameCN": "白雪",
+    "nameTW": "白雪",
+    "nameJP": "シラユキ",
+    "nameKR": "시라유키",
+    "type": "Sniper",
+    "tags": [
+      "Ranged",
+      "AoE",
+      "Slow"
+    ]
+  },
+  {
+    "star": 4,
+    "name": "Scavenger",
+    "nameCN": "清道夫",
+    "nameTW": "清道夫",
+    "nameJP": "スカベンジャー",
+    "nameKR": "스캐빈저",
+    "type": "Vanguard",
+    "tags": [
+      "Melee",
+      "DP-Recovery",
+      "DPS"
+    ]
+  },
+  {
+    "star": 4,
+    "name": "Vigna",
+    "nameCN": "红豆",
+    "nameTW": "紅豆",
+    "nameJP": "ヴィグナ",
+    "nameKR": "비그나",
+    "type": "Vanguard",
+    "tags": [
+      "Melee",
+      "DPS",
+      "DP-Recovery"
+    ]
+  },
+  {
+    "star": 4,
+    "name": "Doberman",
+    "nameCN": "杜宾",
+    "nameTW": "杜賓",
+    "nameJP": "ドーベルマン",
+    "nameKR": "도베르만",
+    "type": "Guard",
+    "tags": [
+      "Melee",
+      "DPS",
+      "Support"
+    ]
+  },
+  {
+    "star": 4,
+    "name": "Matoimaru",
+    "nameCN": "缠丸",
+    "nameTW": "纏丸",
+    "nameJP": "マトイマル",
+    "nameKR": "마토이마루",
+    "type": "Guard",
+    "tags": [
+      "Melee",
+      "Survival",
+      "DPS"
+    ]
+  },
+  {
+    "star": 4,
+    "name": "Frostleaf",
+    "nameCN": "霜叶",
+    "nameTW": "霜葉",
+    "nameJP": "フロストリーフ",
+    "nameKR": "프로스트리프",
+    "type": "Guard",
+    "tags": [
+      "Melee",
+      "Slow",
+      "DPS"
+    ]
+  },
+  {
+    "star": 4,
+    "name": "Mousse",
+    "nameCN": "慕斯",
+    "nameTW": "慕斯",
+    "nameJP": "ムース",
+    "nameKR": "무스",
+    "type": "Guard",
+    "tags": [
+      "Melee",
+      "DPS"
+    ]
+  },
+  {
+    "star": 4,
+    "name": "Gravel",
+    "nameCN": "砾",
+    "nameTW": "礫",
+    "nameJP": "グラベル",
+    "nameKR": "그라벨",
+    "type": "Specialist",
+    "tags": [
+      "Melee",
+      "Fast-Redeploy",
+      "Defense"
+    ]
+  },
+  {
+    "star": 4,
+    "name": "Rope",
+    "nameCN": "暗索",
+    "nameTW": "暗索",
+    "nameJP": "ロープ",
+    "nameKR": "로프",
+    "type": "Specialist",
+    "tags": [
+      "Melee",
+      "Shift"
+    ]
+  },
+  {
+    "star": 4,
+    "name": "Myrrh",
+    "nameCN": "末药",
+    "nameTW": "末藥",
+    "nameJP": "ミルラ",
+    "nameKR": "미르",
+    "type": "Medic",
+    "tags": [
+      "Ranged",
+      "Healing"
+    ]
+  },
+  {
+    "star": 4,
+    "name": "Perfumer",
+    "nameCN": "调香师",
+    "nameTW": "調香師",
+    "nameJP": "パフューマー",
+    "nameKR": "퍼퓨머",
+    "type": "Medic",
+    "tags": [
+      "Ranged",
+      "Healing"
+    ]
+  },
+  {
+    "star": 4,
+    "name": "Matterhorn",
+    "nameCN": "角峰",
+    "nameTW": "角峰",
+    "nameJP": "マッターホルン",
+    "nameKR": "마터호른",
+    "type": "Defender",
+    "tags": [
+      "Melee",
+      "Defense"
+    ]
+  },
+  {
+    "star": 4,
+    "name": "Cuora",
+    "nameCN": "蛇屠箱",
+    "nameTW": "蛇屠箱",
+    "nameJP": "クオーラ",
+    "nameKR": "쿠오라",
+    "type": "Defender",
+    "tags": [
+      "Melee",
+      "Defense"
+    ]
+  },
+  {
+    "star": 4,
+    "name": "Gummy",
+    "nameCN": "古米",
+    "nameTW": "古米",
+    "nameJP": "グム",
+    "nameKR": "굼",
+    "type": "Defender",
+    "tags": [
+      "Melee",
+      "Defense",
+      "Healing"
+    ]
+  },
+  {
+    "star": 4,
+    "name": "Earthspirit",
+    "nameCN": "地灵",
+    "nameTW": "地靈",
+    "nameJP": "アーススピリット",
+    "nameKR": "어스스피릿",
+    "type": "Supporter",
+    "tags": [
+      "Ranged",
+      "Slow"
+    ]
+  },
+  {
+    "star": 4,
+    "name": "Shaw",
+    "nameCN": "阿消",
+    "nameTW": "阿消",
+    "nameJP": "ショウ",
+    "nameKR": "쇼",
+    "type": "Specialist",
+    "tags": [
+      "Melee",
+      "Shift"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Indra",
+    "nameCN": "因陀罗",
+    "nameTW": "因陀羅",
+    "nameJP": "インドラ",
+    "nameKR": "인드라",
+    "type": "Guard",
+    "tags": [
+      "Melee",
+      "DPS",
+      "Survival"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Vulcan",
+    "nameCN": "火神",
+    "nameTW": "火神",
+    "nameJP": "ヴァルガン",
+    "nameKR": "벌컨",
+    "type": "Defender",
+    "tags": [
+      "Melee",
+      "Survival",
+      "Defense",
+      "DPS"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Ptilopsis",
+    "nameCN": "白面鸮",
+    "nameTW": "白面鴞",
+    "nameJP": "フィリオプシス",
+    "nameKR": "프틸롭시스",
+    "type": "Medic",
+    "tags": [
+      "Ranged",
+      "Healing",
+      "Support"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Zima",
+    "nameCN": "凛冬",
+    "nameTW": "凜冬",
+    "nameJP": "ズィマー",
+    "nameKR": "지마",
+    "type": "Vanguard",
+    "tags": [
+      "Melee",
+      "DP-Recovery",
+      "Support"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Texas",
+    "nameCN": "德克萨斯",
+    "nameTW": "德克薩斯",
+    "nameJP": "テキサス",
+    "nameKR": "텍사스",
+    "type": "Vanguard",
+    "tags": [
+      "Melee",
+      "DP-Recovery",
+      "Crowd-Control"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Specter",
+    "nameCN": "幽灵鲨",
+    "nameTW": "幽靈鯊",
+    "nameJP": "スペクター",
+    "nameKR": "스펙터",
+    "type": "Guard",
+    "tags": [
+      "Melee",
+      "AoE",
+      "Survival"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Blue Poison",
+    "nameCN": "蓝毒",
+    "nameTW": "藍毒",
+    "nameJP": "アズリウス",
+    "nameKR": "블루포이즌",
+    "type": "Sniper",
+    "tags": [
+      "Ranged",
+      "DPS"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Platinum",
+    "nameCN": "白金",
+    "nameTW": "白金",
+    "nameJP": "プラチナ",
+    "nameKR": "플래티넘",
+    "type": "Sniper",
+    "tags": [
+      "Ranged",
+      "DPS"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Meteorite",
+    "nameCN": "陨星",
+    "nameTW": "隕星",
+    "nameJP": "メテオリーテ",
+    "nameKR": "메테오라이트",
+    "type": "Sniper",
+    "tags": [
+      "Ranged",
+      "AoE",
+      "Debuff"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Mayer",
+    "nameCN": "梅尔",
+    "nameTW": "梅爾",
+    "nameJP": "メイヤー",
+    "nameKR": "메이어",
+    "type": "Supporter",
+    "tags": [
+      "Ranged",
+      "Summon",
+      "Crowd-Control"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Silence",
+    "nameCN": "赫默",
+    "nameTW": "赫默",
+    "nameJP": "サイレンス",
+    "nameKR": "사일런스",
+    "type": "Medic",
+    "tags": [
+      "Ranged",
+      "Healing"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Warfarin",
+    "nameCN": "华法琳",
+    "nameTW": "華法琳",
+    "nameJP": "ワルファリン",
+    "nameKR": "와파린",
+    "type": "Medic",
+    "tags": [
+      "Ranged",
+      "Healing",
+      "Support"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Nearl",
+    "nameCN": "临光",
+    "nameTW": "臨光",
+    "nameJP": "ニアール",
+    "nameKR": "니어",
+    "type": "Defender",
+    "tags": [
+      "Melee",
+      "Defense",
+      "Healing"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Projekt Red",
+    "nameCN": "红",
+    "nameTW": "紅",
+    "nameJP": "レッド",
+    "nameKR": "레드",
+    "type": "Specialist",
+    "tags": [
+      "Melee",
+      "Fast-Redeploy",
+      "Crowd-Control"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Liskarm",
+    "nameCN": "雷蛇",
+    "nameTW": "雷蛇",
+    "nameJP": "リスカム",
+    "nameKR": "리스캄",
+    "type": "Defender",
+    "tags": [
+      "Melee",
+      "Defense",
+      "DPS"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Croissant",
+    "nameCN": "可颂",
+    "nameTW": "可頌",
+    "nameJP": "クロワッサン",
+    "nameKR": "크루아상",
+    "type": "Defender",
+    "tags": [
+      "Melee",
+      "Defense",
+      "Shift"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Provence",
+    "nameCN": "普罗旺斯",
+    "nameTW": "普羅旺斯",
+    "nameJP": "プロヴァンス",
+    "nameKR": "프로방스",
+    "type": "Sniper",
+    "tags": [
+      "Ranged",
+      "DPS"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Firewatch",
+    "nameCN": "守林人",
+    "nameTW": "守林人",
+    "nameJP": "ファィヤーウォッチ",
+    "nameKR": "파이어워치",
+    "type": "Sniper",
+    "tags": [
+      "Ranged",
+      "DPS",
+      "Nuker"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Cliffheart",
+    "nameCN": "崖心",
+    "nameTW": "崖心",
+    "nameJP": "クリフハート",
+    "nameKR": "클리프하트",
+    "type": "Specialist",
+    "tags": [
+      "Melee",
+      "Shift",
+      "DPS"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Pramanix",
+    "nameCN": "初雪",
+    "nameTW": "初雪",
+    "nameJP": "プラマニクス",
+    "nameKR": "프라마닉스",
+    "type": "Supporter",
+    "tags": [
+      "Ranged",
+      "Debuff"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Istina",
+    "nameCN": "真理",
+    "nameTW": "真理",
+    "nameJP": "イースチナ",
+    "nameKR": "이스티나",
+    "type": "Supporter",
+    "tags": [
+      "Ranged",
+      "Slow",
+      "DPS"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Manticore",
+    "nameCN": "狮蝎",
+    "nameTW": "獅蠍",
+    "nameJP": "マンティコア",
+    "nameKR": "맨티코어",
+    "type": "Specialist",
+    "tags": [
+      "Melee",
+      "DPS",
+      "Survival"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "FEater",
+    "nameCN": "食铁兽",
+    "nameTW": "食鐵獸",
+    "nameJP": "エフイーター",
+    "nameKR": "에프이터",
+    "type": "Specialist",
+    "tags": [
+      "Melee",
+      "Shift",
+      "Slow"
+    ]
+  },
+  {
+    "star": 6,
+    "name": "Exusiai",
+    "nameCN": "能天使",
+    "nameTW": "能天使",
+    "nameJP": "エクシア",
+    "nameKR": "엑시아",
+    "type": "Sniper",
+    "tags": [
+      "Ranged",
+      "DPS"
+    ]
+  },
+  {
+    "star": 6,
+    "name": "Siege",
+    "nameCN": "推进之王",
+    "nameTW": "推進之王",
+    "nameJP": "シージ",
+    "nameKR": "시즈",
+    "type": "Vanguard",
+    "tags": [
+      "Melee",
+      "DP-Recovery",
+      "DPS"
+    ]
+  },
+  {
+    "star": 6,
+    "name": "Ifrit",
+    "nameCN": "伊芙利特",
+    "nameTW": "伊芙利特",
+    "nameJP": "イフリータ",
+    "nameKR": "이프리트",
+    "type": "Caster",
+    "tags": [
+      "Ranged",
+      "AoE",
+      "Debuff"
+    ]
+  },
+  {
+    "star": 6,
+    "name": "Shining",
+    "nameCN": "闪灵",
+    "nameTW": "閃靈",
+    "nameJP": "シャイニング",
+    "nameKR": "샤이닝",
+    "type": "Medic",
+    "tags": [
+      "Ranged",
+      "Healing",
+      "Support"
+    ]
+  },
+  {
+    "star": 6,
+    "name": "Nightingale",
+    "nameCN": "夜莺",
+    "nameTW": "夜鶯",
+    "nameJP": "ナイチンゲール",
+    "nameKR": "나이팅게일",
+    "type": "Medic",
+    "tags": [
+      "Ranged",
+      "Healing",
+      "Support"
+    ]
+  },
+  {
+    "star": 6,
+    "name": "Hoshiguma",
+    "nameCN": "星熊",
+    "nameTW": "星熊",
+    "nameJP": "ホシグマ",
+    "nameKR": "호시구마",
+    "type": "Defender",
+    "tags": [
+      "Melee",
+      "Defense",
+      "DPS"
+    ]
+  },
+  {
+    "star": 6,
+    "name": "Saria",
+    "nameCN": "塞雷娅",
+    "nameTW": "塞雷婭",
+    "nameJP": "サリア",
+    "nameKR": "사리아",
+    "type": "Defender",
+    "tags": [
+      "Melee",
+      "Defense",
+      "Healing",
+      "Support"
+    ]
+  },
+  {
+    "star": 6,
+    "name": "SilverAsh",
+    "nameCN": "银灰",
+    "nameTW": "銀灰",
+    "nameJP": "シルバーアッシュ",
+    "nameKR": "실버애쉬",
+    "type": "Guard",
+    "tags": [
+      "Melee",
+      "DPS",
+      "Support"
+    ]
+  },
+  {
+    "star": 3,
+    "name": "Catapult",
+    "nameCN": "空爆",
+    "nameTW": "空爆",
+    "nameJP": "カタパルト",
+    "nameKR": "캐터펄트",
+    "type": "Sniper",
+    "tags": [
+      "Ranged",
+      "AoE"
+    ]
+  },
+  {
+    "star": 3,
+    "name": "Midnight",
+    "nameCN": "月见夜",
+    "nameTW": "月見夜",
+    "nameJP": "ミッドナイト",
+    "nameKR": "미드나이트",
+    "type": "Guard",
+    "tags": [
+      "Melee",
+      "DPS"
+    ]
+  },
+  {
+    "star": 4,
+    "name": "Beehunter",
+    "nameCN": "猎蜂",
+    "nameTW": "獵蜂",
+    "nameJP": "ビーハンター",
+    "nameKR": "비헌터",
+    "type": "Guard",
+    "tags": [
+      "Melee",
+      "DPS"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Nightmare",
+    "nameCN": "夜魔",
+    "nameTW": "夜魔",
+    "nameJP": "ナイトメア",
+    "nameKR": "나이트메어",
+    "type": "Caster",
+    "tags": [
+      "Ranged",
+      "DPS",
+      "Healing",
+      "Slow"
+    ]
+  },
+  {
+    "star": 6,
+    "name": "Skadi",
+    "nameCN": "斯卡蒂",
+    "nameTW": "斯卡蒂",
+    "nameJP": "スカジ",
+    "nameKR": "스카디",
+    "type": "Guard",
+    "tags": [
+      "Melee",
+      "DPS",
+      "Survival"
+    ]
+  },
+  {
+    "star": 1,
+    "name": "Thermal-EX",
+    "nameCN": "THRM-EX",
+    "nameTW": "THRM-EX",
+    "nameJP": "THRM-EX",
+    "nameKR": "THRM-EX",
+    "type": "Specialist",
+    "tags": [
+      "Melee",
+      "Nuker"
+    ]
+  },
+  {
+    "star": 3,
+    "name": "Popukar",
+    "nameCN": "泡普卡",
+    "nameTW": "泡普卡",
+    "nameJP": "ポプカル",
+    "nameKR": "포푸카",
+    "type": "Guard",
+    "tags": [
+      "Melee",
+      "AoE",
+      "Survival"
+    ]
+  },
+  {
+    "star": 3,
+    "name": "Spot",
+    "nameCN": "斑点",
+    "nameTW": "斑點",
+    "nameJP": "スポット",
+    "nameKR": "스팟",
+    "type": "Defender",
+    "tags": [
+      "Melee",
+      "Defense",
+      "Healing"
+    ]
+  },
+  {
+    "star": 4,
+    "name": "Greyy",
+    "nameCN": "格雷伊",
+    "nameTW": "格雷伊",
+    "nameJP": "グレイ",
+    "nameKR": "그레이",
+    "type": "Caster",
+    "tags": [
+      "Ranged",
+      "AoE",
+      "Slow"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Swire",
+    "nameCN": "诗怀雅",
+    "nameTW": "詩懷雅",
+    "nameJP": "スワイヤー",
+    "nameKR": "스와이어",
+    "type": "Guard",
+    "tags": [
+      "Melee",
+      "DPS",
+      "Support"
+    ]
+  },
+  {
+    "star": 6,
+    "name": "Ch'en",
+    "nameCN": "陈",
+    "nameTW": "陳",
+    "nameJP": "チェン",
+    "nameKR": "첸",
+    "type": "Guard",
+    "tags": [
+      "Melee",
+      "Nuker",
+      "DPS"
+    ]
+  },
+  {
+    "star": 4,
+    "name": "Sussurro",
+    "nameCN": "苏苏洛",
+    "nameTW": "苏苏洛",
+    "nameJP": "ススーロ",
+    "nameKR": "苏苏洛",
+    "type": "Medic",
+    "tags": [
+      "Ranged",
+      "Healing"
+    ]
+  },
+  {
+    "star": 4,
+    "name": "Myrtle",
+    "nameCN": "桃金娘",
+    "nameTW": "桃金娘",
+    "nameJP": "テンニンカ",
+    "nameKR": "桃金娘",
+    "type": "Vanguard",
+    "tags": [
+      "Melee",
+      "DP-Recovery",
+      "Healing"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Glaucus",
+    "nameCN": "格劳克斯",
+    "nameTW": "格劳克斯",
+    "nameJP": "グラウコス",
+    "nameKR": "格劳克斯",
+    "type": "Supporter",
+    "tags": [
+      "Ranged",
+      "Slow",
+      "Crowd-Control"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Astesia",
+    "nameCN": "星极",
+    "nameTW": "星极",
+    "nameJP": "アステシア",
+    "nameKR": "星极",
+    "type": "Guard",
+    "tags": [
+      "Melee",
+      "DPS",
+      "Defense"
+    ]
+  },
+  {
+    "star": 6,
+    "name": "Schwarz",
+    "nameCN": "黑",
+    "nameTW": "黑",
+    "nameJP": "シュヴァルツ",
+    "nameKR": "黑",
+    "type": "Sniper",
+    "tags": [
+      "Ranged",
+      "DPS"
+    ]
+  },
+  {
+    "star": 6,
+    "name": "Hellagur",
+    "nameCN": "赫拉格",
+    "nameTW": "赫拉格",
+    "nameJP": "ヘラグ",
+    "nameKR": "赫拉格",
+    "type": "Guard",
+    "tags": [
+      "Melee",
+      "DPS",
+      "Survival"
+    ]
+  },
+  {
+    "star": 4,
+    "name": "Vermeil",
+    "nameCN": "红云",
+    "nameTW": "红云",
+    "nameJP": "ヴァーミル",
+    "nameKR": "红云",
+    "type": "Sniper",
+    "tags": [
+      "Ranged",
+      "DPS"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Executor",
+    "nameCN": "送葬人",
+    "nameTW": "送葬人",
+    "nameJP": "イグゼキュター",
+    "nameKR": "送葬人",
+    "type": "Sniper",
+    "tags": [
+      "Ranged",
+      "AoE"
+    ]
+  },
+  {
+    "star": 6,
+    "name": "Magallan",
+    "nameCN": "麦哲伦",
+    "nameTW": "麦哲伦",
+    "nameJP": "マゼラン",
+    "nameKR": "麦哲伦",
+    "type": "Supporter",
+    "tags": [
+      "Ranged",
+      "Support",
+      "Slow",
+      "DPS"
+    ]
+  },
+  {
+    "star": 4,
+    "name": "Purestream*",
+    "nameCN": "清流",
+    "nameTW": "清流*",
+    "nameJP": "セイリュウ*",
+    "nameKR": "清流*",
+    "type": "Medic",
+    "tags": [
+      "Ranged",
+      "Healing",
+      "Support"
+    ]
+  },
+  {
+    "star": 4,
+    "name": "May",
+    "nameCN": "梅",
+    "nameTW": "梅",
+    "nameJP": "メイ",
+    "nameKR": "梅",
+    "type": "Sniper",
+    "tags": [
+      "Ranged",
+      "DPS",
+      "Slow"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Waai Fu",
+    "nameCN": "槐琥",
+    "nameTW": "槐琥",
+    "nameJP": "ワイフー",
+    "nameKR": "槐琥",
+    "type": "Specialist",
+    "tags": [
+      "Melee",
+      "Fast-Redeploy",
+      "Debuff"
+    ]
+  },
+  {
+    "star": 6,
+    "name": "Mostima",
+    "nameCN": "莫斯提马",
+    "nameTW": "莫斯提马",
+    "nameJP": "モスティマ",
+    "nameKR": "莫斯提马",
+    "type": "Caster",
+    "tags": [
+      "Ranged",
+      "AoE",
+      "Support",
+      "Crowd-Control"
+    ]
+  },
+  {
+    "star": 4,
+    "name": "Ambriel",
+    "nameCN": "安比尔",
+    "nameTW": "安比尔*",
+    "nameJP": "アンブリエル",
+    "nameKR": "安比尔",
+    "type": "Sniper",
+    "tags": [
+      "Ranged",
+      "DPS",
+      "Slow"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Broca",
+    "nameCN": "布洛卡",
+    "nameTW": "布洛卡*",
+    "nameJP": "ブローカ",
+    "nameKR": "布洛卡",
+    "type": "Guard",
+    "tags": [
+      "Melee",
+      "AoE",
+      "Survival"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Reed",
+    "nameCN": "苇草",
+    "nameTW": "苇草*",
+    "nameJP": "リード",
+    "nameKR": "苇草",
+    "type": "Vanguard",
+    "tags": [
+      "Melee",
+      "DP-Recovery",
+      "DPS"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "GreyThroat",
+    "nameCN": "灰喉",
+    "nameTW": "灰喉*",
+    "nameJP": "グレースロート",
+    "nameKR": "灰喉",
+    "type": "Sniper",
+    "tags": [
+      "Ranged",
+      "DPS"
+    ]
+  },
+  {
+    "star": 6,
+    "name": "Blaze",
+    "nameCN": "煌",
+    "nameTW": "煌*",
+    "nameJP": "ブレイズ",
+    "nameKR": "煌",
+    "type": "Guard",
+    "tags": [
+      "Melee",
+      "DPS",
+      "Survival"
+    ]
+  },
+  {
+    "star": 1,
+    "name": "\"Justice Knight\"*",
+    "nameCN": "正义骑士号",
+    "nameTW": "正义骑士号*",
+    "nameJP": "正义骑士号*",
+    "nameKR": "正义骑士号*",
+    "type": "Sniper",
+    "tags": [
+      "Ranged",
+      "Support"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Hung*",
+    "nameCN": "吽",
+    "nameTW": "吽*",
+    "nameJP": "ウン*",
+    "nameKR": "吽*",
+    "type": "Defender",
+    "tags": [
+      "Melee",
+      "Defense",
+      "Healing"
+    ]
+  },
+  {
+    "star": 6,
+    "name": "Aak*",
+    "nameCN": "阿",
+    "nameTW": "阿*",
+    "nameJP": "ア*",
+    "nameKR": "阿*",
+    "type": "Specialist",
+    "tags": [
+      "Ranged",
+      "Support",
+      "DPS"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Leizi*",
+    "nameCN": "惊蛰",
+    "nameTW": "惊蛰*",
+    "nameJP": "レイズ*",
+    "nameKR": "惊蛰*",
+    "type": "Caster",
+    "tags": [
+      "Ranged",
+      "DPS"
+    ]
+  },
+  {
+    "star": 6,
+    "name": "Ceobe*",
+    "nameCN": "刻俄柏",
+    "nameTW": "刻俄柏*",
+    "nameJP": "ケオベ*",
+    "nameKR": "刻俄柏*",
+    "type": "Caster",
+    "tags": [
+      "Ranged",
+      "DPS",
+      "Crowd-Control"
+    ]
+  },
+  {
+    "star": 4,
+    "name": "Utage*",
+    "nameCN": "宴",
+    "nameTW": "宴*",
+    "nameJP": "ウタゲ*",
+    "nameKR": "宴*",
+    "type": "Guard",
+    "tags": [
+      "Melee",
+      "DPS",
+      "Survival"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Sesa*",
+    "nameCN": "慑砂",
+    "nameTW": "慑砂*",
+    "nameJP": "シェーシャ*",
+    "nameKR": "慑砂*",
+    "type": "Sniper",
+    "tags": [
+      "Ranged",
+      "AoE",
+      "Debuff"
+    ]
+  },
+  {
+    "star": 6,
+    "name": "Bagpipe*",
+    "nameCN": "风笛",
+    "nameTW": "风笛*",
+    "nameJP": "バグパイプ*",
+    "nameKR": "风笛*",
+    "type": "Vanguard",
+    "tags": [
+      "Melee",
+      "DP-Recovery",
+      "DPS"
+    ]
+  },
+  {
+    "star": 4,
+    "name": "Cutter*",
+    "nameCN": "刻刀",
+    "nameTW": "刻刀*",
+    "nameJP": "カッター*",
+    "nameKR": "刻刀*",
+    "type": "Guard",
+    "tags": [
+      "Melee",
+      "Nuker",
+      "DPS"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Shamare*",
+    "nameCN": "巫恋",
+    "nameTW": "巫恋*",
+    "nameJP": "シャマレ*",
+    "nameKR": "巫恋*",
+    "type": "Supporter",
+    "tags": [
+      "Ranged",
+      "Debuff"
+    ]
+  },
+  {
+    "star": 6,
+    "name": "Phantom*",
+    "nameCN": "傀影",
+    "nameTW": "傀影*",
+    "nameJP": "ファントム*",
+    "nameKR": "傀影*",
+    "type": "Specialist",
+    "tags": [
+      "Melee",
+      "Fast-Redeploy",
+      "Crowd-Control",
+      "DPS"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Elysium*",
+    "nameCN": "极境",
+    "nameTW": "极境*",
+    "nameJP": "エリジウム*",
+    "nameKR": "极境*",
+    "type": "Vanguard",
+    "tags": [
+      "Melee",
+      "DP-Recovery",
+      "Support"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Asbestos*",
+    "nameCN": "石棉",
+    "nameTW": "石棉*",
+    "nameJP": "アスベストス*",
+    "nameKR": "石棉*",
+    "type": "Defender",
+    "tags": [
+      "Melee",
+      "Defense",
+      "DPS"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Tsukinogi*",
+    "nameCN": "月禾",
+    "nameTW": "月禾*",
+    "nameJP": "ツキノギ*",
+    "nameKR": "月禾*",
+    "type": "Supporter",
+    "tags": [
+      "Ranged",
+      "Support",
+      "Survival"
+    ]
+  },
+  {
+    "star": 6,
+    "name": "Weedy*",
+    "nameCN": "温蒂",
+    "nameTW": "温蒂*",
+    "nameJP": "ウィーディ*",
+    "nameKR": "温蒂*",
+    "type": "Specialist",
+    "tags": [
+      "Melee",
+      "Shift",
+      "DPS",
+      "Crowd-Control"
+    ]
+  },
+  {
+    "star": 4,
+    "name": "Podenco*",
+    "nameCN": "波登可",
+    "nameTW": "波登可*",
+    "nameJP": "ポデンコ*",
+    "nameKR": "波登可*",
+    "type": "Supporter",
+    "tags": [
+      "Ranged",
+      "Slow",
+      "Healing"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Leonhardt*",
+    "nameCN": "莱恩哈特",
+    "nameTW": "莱恩哈特*",
+    "nameJP": "レオンハルト*",
+    "nameKR": "莱恩哈特*",
+    "type": "Caster",
+    "tags": [
+      "Ranged",
+      "AoE",
+      "Nuker"
+    ]
+  },
+  {
+    "star": 6,
+    "name": "Роса*",
+    "nameCN": "早露",
+    "nameTW": "早露*",
+    "nameJP": "ロサ*",
+    "nameKR": "早露*",
+    "type": "Sniper",
+    "tags": [
+      "Ranged",
+      "DPS",
+      "Crowd-Control"
+    ]
+  },
+  {
+    "star": 4,
+    "name": "Click*",
+    "nameCN": "卡达",
+    "nameTW": "卡达*",
+    "nameJP": "カシャ*",
+    "nameKR": "卡达*",
+    "type": "Caster",
+    "tags": [
+      "Ranged",
+      "DPS",
+      "Crowd-Control"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Ayerscarpe*",
+    "nameCN": "断崖",
+    "nameTW": "断崖*",
+    "nameJP": "エアースカーペ*",
+    "nameKR": "断崖*",
+    "type": "Guard",
+    "tags": [
+      "Melee",
+      "DPS",
+      "AoE"
+    ]
+  },
+  {
+    "star": 6,
+    "name": "Suzuran*",
+    "nameCN": "铃兰",
+    "nameTW": "铃兰*",
+    "nameJP": "スズラン*",
+    "nameKR": "铃兰*",
+    "type": "Supporter",
+    "tags": [
+      "Ranged",
+      "Slow",
+      "Support",
+      "DPS"
+    ]
+  },
+  {
+    "star": 1,
+    "name": "Friston-3*",
+    "nameCN": "Friston-3",
+    "nameTW": "Friston-3*",
+    "nameJP": "Friston-3*",
+    "nameKR": "Friston-3*",
+    "type": "Defender",
+    "tags": [
+      "Melee",
+      "Defense"
+    ]
+  },
+  {
+    "star": 6,
+    "name": "Blemishine",
+    "nameCN": "霞光",
+    "nameTW": "霞光",
+    "nameJP": "ブレミシン",
+    "nameKR": "霞光",
+    "type": "Defender",
+    "tags": [
+      "Defense",
+      "Healing",
+      "DPS"
+    ]
+  },
+  {
+    "star": 6,
+    "name": "Thorns",
+    "nameCN": "棘刺",
+    "nameTW": "棘刺",
+    "nameJP": "ソーンズ",
+    "nameKR": "棘刺",
+    "type": "Guard",
+    "tags": [
+      "Defense",
+      "DPS"
+    ]
+  },
+  {
+    "star": 6,
+    "name": "Eunectes",
+    "nameCN": "森蚺",
+    "nameTW": "森蚺",
+    "nameJP": "エネクテス",
+    "nameKR": "森蚺",
+    "type": "Defender",
+    "tags": [
+      "Defense",
+      "DPS",
+      "Survival"
+    ]
+  },
+  {
+    "star": 1,
+    "name": "PhonoR-0",
+    "nameCN": "PhonoR-0",
+    "nameTW": "PhonoR-0",
+    "nameJP": "PhonoR-0",
+    "nameKR": "PhonoR-0",
+    "type": "Supporter",
+    "tags": [
+      "Ranged",
+      "Elements"
+    ]
+
+  }
 ]
