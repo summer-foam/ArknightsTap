@@ -2,7 +2,6 @@
 # ArkTap
 ArkTapとは、株式会社Yostarのスマホゲーム、アークナイツのサードパーティサポートアプリです。
 
-[最新のリリース](https://github.com/aistra0528/ArknightsTap/releases/latest)
 
 ## 機能
 

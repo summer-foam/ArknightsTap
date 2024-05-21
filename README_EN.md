@@ -2,7 +2,6 @@
 # ArkTap
 ArkTap is a free software for Arknights.
 
-[Latest release](https://github.com/aistra0528/ArknightsTap/releases/latest)
 
 ## Features
 
