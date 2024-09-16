@@ -1821,5 +1821,114 @@
       "AoE",
       "Defense"
     ]
+  },
+  {
+    "star": 6,
+    "name": "Mudrock",
+    "nameCN": "泥岩",
+    "nameTW": "泥岩",
+    "nameJP": "マッドロック",
+    "nameKR": "마드록",
+    "type": "Defender",
+    "tags": [
+      "Melee",
+      "Defense",
+      "DPS"
+    ]
+  },
+  {
+    "star": 4,
+    "name": "Arene",
+    "nameCN": "燧石",
+    "nameTW": "燧石",
+    "nameJP": "アレーネ",
+    "nameKR": "아레네",
+    "type": "Guard",
+    "tags": [
+      "Melee",
+      "DPS"
+    ]
+  },
+  {
+    "star": 4,
+    "name": "Jackie",
+    "nameCN": "杰克",
+    "nameTW": "杰克",
+    "nameJP": "ジャッキー",
+    "nameKR": "잭키",
+    "type": "Guard",
+    "tags": [
+      "Melee",
+      "DPS"
+    ]
+  },
+  {
+    "star": 4,
+    "name": "Aciddrop",
+    "nameCN": "酸糖",
+    "nameTW": "酸糖",
+    "nameJP": "アシッドロップ",
+    "nameKR": "애시드드롭",
+    "type": "Sniper",
+    "tags": [
+      "Ranged",
+      "DPS"
+    ]
+  },
+  {
+    "star": 4,
+    "name": "Bubble",
+    "nameCN": "泡泡",
+    "nameTW": "泡泡",
+    "nameJP": "バブル",
+    "nameKR": "버블",
+    "type": "Defender",
+    "tags": [
+      "Melee",
+      "Defense"
+    ]
+  },
+  {
+    "star": 5,
+    "name": "Whisperain",
+    "nameCN": "絮雨",
+    "nameTW": "絮雨",
+    "nameJP": "ウィスパーレイン",
+    "nameKR": "위스퍼레인",
+    "type": "Medic",
+    "tags": [
+      "Ranged",
+      "Healing"
+    ]
+  },
+  {
+    "star": 4,
+    "name": "Jaye",
+    "nameCN": "孑",
+    "nameTW": "孑",
+    "nameJP": "ジェイ",
+    "nameKR": "제이",
+    "type": "Specialist",
+    "tags": [
+      "Melee",
+      "Fast-Redeploy",
+      "DPS"
+    ]
+
+  },
+  {
+    "star": 4,
+    "name": "Podenco",
+    "nameCN": "波登可",
+    "nameTW": "波登可",
+    "nameJP": "ポデンコ",
+    "nameKR": "포덴코",
+    "type": "Supporter",
+    "tags": [
+      "Ranged",
+      "Slow",
+      "Healing"
+    ]
   }
+
 ]

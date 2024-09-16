@@ -12,7 +12,7 @@ android {
         minSdk = 21
         targetSdk = 33
         versionCode = 69
-        versionName = "3.0.4"
+        versionName = "3.0.5"
         resourceConfigurations += setOf("zh-rCN", "en", "ja", "in", "fr")
     }
 
